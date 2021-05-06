@@ -1,0 +1,24 @@
+{
+
+
+  "require":{
+    "slim/slim":"2.*",
+    "jossmp/datos-peru": "^2.0",
+    "jossmp/sunatphp": "^2.0",
+    "greenter/greenter": "^3.0",
+    "greenter/htmltopdf": "^2.1",
+    "greenter/report": "^2.1",
+    "luecano/numero-a-letras": "^1.2"
+
+
+   },
+   "scripts": {
+    "post-install-cmd": "ComposerScripts::postInstall",
+    "reset-cache": "ComposerScripts::clearCache"
+},
+"config": {
+    "optimize-autoloader": true,
+    "classmap-authoritative": true
+}
+
+}
